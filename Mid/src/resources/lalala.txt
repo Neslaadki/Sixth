@@ -1,0 +1,5 @@
+show
+clear
+execute_script lalala.txt
+clear
+show
