@@ -33,13 +33,7 @@ public class ApplicationManager implements MessageErrors {
     private Network network;
 
     public ApplicationManager() {
-        /**
-         String directory = System.getenv("INPUT_LAB");
-         if (directory == null || directory.equals("")) {
-         path = "/Users/antondzubak/Documents/JavaApp/src/csvFiles/file";
-         } else {
-         path = directory;
-         }*/
+       
         String directory = System.getenv("INPUT_LAB");
         directory = "/Users/antondzubak/Documents/JavaApp/src/csvFiles/file";
         if (directory == null || directory.equals("")) {
